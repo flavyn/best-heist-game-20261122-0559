@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0a141d">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+  <title>Vault Shift — A quiet kind of crime</title>
+</head>
+<body>
+  <main aria-label="Vault Shift heist game">
+    <canvas id="game" width="1280" height="800" tabindex="0" aria-label="Heist room. WASD or arrows to move, click to walk, Space to hide, 1 decoy, 2 jammer, R retry, N next room."></canvas>
+    <div id="hud" role="status" aria-live="polite"></div>
+    <button id="sound" aria-label="Toggle sound">SOUND ON</button>
+  </main>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
